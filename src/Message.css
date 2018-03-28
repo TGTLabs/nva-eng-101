@@ -1,0 +1,22 @@
+@keyframes new-message {
+  from { background-color: #D6D6D6; }
+  to { background-color: #F7F7F7; }
+}
+
+.message {
+  position: relative;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #D6D6D6;
+  padding: 20px;
+  animation-name: new-message;
+  animation-duration: 2s;
+  font-size: 1em;
+  text-align: left;
+}
+
+.message .timestamp {
+  display: block;
+  text-align: right;
+  font-size: 0.8em;
+  color: #888;
+}
